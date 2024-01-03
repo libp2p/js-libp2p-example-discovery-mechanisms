@@ -1,17 +1,28 @@
-# ⚠️ IMPORTANT ⚠️
+## Title
+<!---
+The title of the PR will be the commit message of the merge commit, so please make sure it is descriptive enough.
+We utilize the Conventional Commits specification for our commit messages. See <https://www.conventionalcommits.org/en/v1.0.0/#specification> for more information.
+The commit tag types can be of one of the following: feat, fix, deps, refactor, chore, docs. See <https://github.com/libp2p/js-libp2p/blob/master/.github/workflows/main.yml#L235-L242>
+The title must also be fewer than 72 characters long or it will fail the Semantic PR check. See <https://github.com/libp2p/js-libp2p/blob/master/.github/workflows/semantic-pull-request.yml>
+--->
 
-# Please do not create a Pull Request for this repository
+## Description
 
-The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+<!--
+Please write a summary of your changes and why you made them.
+Please include any relevant issues in here, for example:
+Related https://github.com/libp2p/js-libp2p/issues/ABCD.
+Fixes https://github.com/libp2p/js-libp2p/issues/XYZ.
+-->
 
-Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+## Notes & open questions
 
-## Contributing
+<!--
+Any notes, remarks or open questions you have to make about the PR which don't need to go into the final commit message.
+-->
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+## Change checklist
 
-1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
-2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
-3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
-4. Push to the Branch (`git push origin feature/amazing-example`)
-5. Open a Pull Request
+- [ ] I have performed a self-review of my own code
+- [ ] I have made corresponding changes to the documentation if necessary (this includes comments as well)
+- [ ] I have added tests that prove my fix is effective or that my feature works
