@@ -23,7 +23,7 @@ const node = await createLibp2p({
     })
   ],
   services: {
-    kadDHT: kadDHT(),
+    kadDHT: kadDHT({}),
     identify: identify()
   }
 })
